@@ -45,7 +45,7 @@ const Register = () => {
         if(IsValidate()){ 
         console.log(formobj);
 
-        fetch("https://mernback2-qkxq.onrender.com/users",{
+        fetch("https://mernback2-qkxq.onrender.com/user",{
             method:"POST",
             headers:{"content-type":"application/json"},
             body:JSON.stringify(formobj)
